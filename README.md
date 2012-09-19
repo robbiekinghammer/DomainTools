@@ -34,3 +34,30 @@ Then, update your bundles.php to auto-start the bundle.
 	catch ( Exception $e ){
 		echo $e->getMessage();
 	}
+
+## Example of Data returned 
+
+    array(4) {
+      ["whois"]=>
+      string(0) ""
+      ["status"]=>
+      int(1)
+      ["domain"]=>
+      string(12) "example-domain.com"
+      ["tld"]=>
+      string(2) "com"
+    }
+
+##### The whois entry only gets populated when a domain is already registered.
+
+## How to retrieve the list of common TLD's
+
+    $tlds = Whois::get_tlds('common');
+    
+##### You can change this list by editing the servers.ini file.
+
+## Statuses Codes
+
+    0 - Error
+    1 - Domain is available
+    2 - Domain is registered
