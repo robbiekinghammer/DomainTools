@@ -2,15 +2,15 @@
 
 /**
  * --------------------------------------------------------------------------
- * Lara Whois
+ * DomainTools
  * --------------------------------------------------------------------------
  * 
- * A Domain whois bundle for use with the Laravel Framework.
+ * Domain Tools, a bundle for use with the Laravel Framework.
  *
- * @package  lara-whois
+ * @package  domaintools
  * @version  1.0
- * @author   Bruno Gaspar <brunofgaspar@live.com.pt>
- * @link     https://github.com/bruno-g/lara-whois
+ * @author   Bruno Gaspar <brunofgaspar1@gmail.com>
+ * @link     https://github.com/bruno-g/domaintools
  */
 
 
@@ -20,7 +20,8 @@
  * --------------------------------------------------------------------------
  */
 Autoloader::namespaces(array(
-    'LaraWhois' => __DIR__ . DS
+    'DomainTools\\Library' => __DIR__ . DS . 'libraries',
+    'DomainTools'          => __DIR__ . DS
 ));
 
 
@@ -29,12 +30,4 @@ Autoloader::namespaces(array(
  * Set the global alias.
  * --------------------------------------------------------------------------
  */
-Autoloader::alias('LaraWhois\\Whois', 'Whois');
-
-
-/*
- * --------------------------------------------------------------------------
- * Initialize the Whois library.
- * --------------------------------------------------------------------------
- */
-Whois::init();
+Autoloader::alias('DomainTools\\DomainTools', 'DomainTools');

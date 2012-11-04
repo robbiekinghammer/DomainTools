@@ -1,16 +1,15 @@
 <?php
-
 /**
  * --------------------------------------------------------------------------
- * Lara Whois
+ * DomainTools
  * --------------------------------------------------------------------------
  * 
  * A Domain whois bundle for use with the Laravel Framework.
  *
- * @package  lara-whois
- * @version  1.0
+ * @package  domaintools
+ * @version  1.1
  * @author   Bruno Gaspar <brunofgaspar@live.com.pt>
- * @link     https://github.com/bruno-g/lara-whois
+ * @link     https://github.com/bruno-g/domaintools
  */
 
 
@@ -20,7 +19,8 @@
  * --------------------------------------------------------------------------
  */
 return array(
-    'error'       => 'An error occurred, please try again !',
-    'invalid'     => 'Domain :domain is invalid !',
-    'invalid_tld' => 'Domain TLD <strong>.:tld</strong> is invalid !'
+    'invalid' => array(
+        'domain' => 'The domain <strong>:domain</strong> is invalid!',
+        'tld'    => 'The TLD <strong>.:tld is invalid!'
+    )
 );
