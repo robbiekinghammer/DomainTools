@@ -1,18 +1,16 @@
 <?php
-
 /**
  * --------------------------------------------------------------------------
  * DomainTools
  * --------------------------------------------------------------------------
- * 
+ *
  * Domain Tools, a bundle for use with the Laravel Framework.
  *
- * @package  domaintools
+ * @package  Domain Tools
  * @version  1.0
  * @author   Bruno Gaspar <brunofgaspar1@gmail.com>
  * @link     https://github.com/bruno-g/domaintools
  */
-
 
 /*
  * --------------------------------------------------------------------------
@@ -20,10 +18,9 @@
  * --------------------------------------------------------------------------
  */
 Autoloader::namespaces(array(
-    'DomainTools\\Library' => __DIR__ . DS . 'libraries',
-    'DomainTools'          => __DIR__ . DS
+	'DomainTools\\Libraries' => __DIR__ . DS . 'libraries',
+	'DomainTools'            => __DIR__ . DS
 ));
-
 
 /*
  * --------------------------------------------------------------------------

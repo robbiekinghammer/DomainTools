@@ -1,16 +1,16 @@
 <?php
 
-namespace DomainTools\Library;
+namespace DomainTools\Libraries;
 
 class Rank
 {
-    public static function google()
-    {
+	public static function google()
+	{
 
-    }
+	}
 
-    public static function alexa()
-    {
+	public static function alexa()
+	{
 
-    }
+	}
 }
