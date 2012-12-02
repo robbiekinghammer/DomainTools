@@ -7,7 +7,7 @@
  * Domain Tools, a bundle for use with the Laravel Framework.
  *
  * @package  Domain Tools
- * @version  1.0
+ * @version  1.1
  * @author   Bruno Gaspar <brunofgaspar1@gmail.com>
  * @link     https://github.com/bruno-g/domaintools
  */
