@@ -226,8 +226,47 @@ class Whois
 		return $this->information['availability'];
 	}
 
+	/**
+	 * Returns the domain whois information.
+	 *
+	 * @access   public
+	 * @return   string
+	 */
 	public function info()
 	{
 		return $this->information['whois'];
+	}
+
+	/**
+	 * Returns the domain name.
+	 *
+	 * @access   public
+	 * @return   string
+	 */
+	public function domain()
+	{
+		return $this->domain;
+	}
+
+	/**
+	 * Returns the domain sld.
+	 *
+	 * @access   public
+	 * @return   string
+	 */
+	public function sld()
+	{
+		return $this->sld;
+	}
+
+	/**
+	 * Returns the domain tld.
+	 *
+	 * @access   public
+	 * @return   string
+	 */
+	public function tld()
+	{
+		return $this->tld;
 	}
 }
