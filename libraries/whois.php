@@ -7,7 +7,7 @@
  * Domain Tools, a bundle for use with the Laravel Framework.
  *
  * @package  Domain Tools
- * @version  1.1
+ * @version  2.0.0
  * @author   Bruno Gaspar <brunofgaspar@live.com.pt>
  * @link     https://github.com/bruno-g/domaintools
  */
@@ -22,7 +22,7 @@ use Exception;
 use Laravel\Lang;
 
 /**
- * The whois class of DomainTools.
+ * The whois class.
  *
  */
 class Whois
@@ -206,9 +206,9 @@ class Whois
 		// Store the needed information.
 		//
 		$this->information = $result;
-		$this->domain  = $domain;
-		$this->sld = $sld;
-		$this->tld = $tld;
+		$this->domain      = $domain;
+		$this->sld         = $sld;
+		$this->tld         = $tld;
 
 		// Return the object.
 		//
