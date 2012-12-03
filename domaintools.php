@@ -45,24 +45,6 @@ class DomainTools
 	}
 
 	/**
-	 * Checks the rank of the passed domain.
-	 *
-	 * @access   public
-	 * @param    string
-	 * @return   object
-	 */
-	public static function rank($domain = null)
-	{
-		// Clean the domain.
-		//
-		$domain = self::clean_domain($domain);
-
-		// Return the Rank object.
-		//
-		return new Rank($domain);
-	}
-
-	/**
 	 * Initiate our Server class, so we can get the servers list.
 	 *
 	 * @access   public
