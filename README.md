@@ -1,14 +1,10 @@
 ## Laravel Domain Tools
-**Version: 1.1**
+**Version: 2.0.0**
 
 Domain tools is a Bundle for Laravel that can be used to get information about a domain name, like the domain availability and the domain whois information.
 
 ## Installation
-Install via artisan
-
-    php artisan bundle:install domaintools
-
-or clone the project into **bundles/domaintools**
+Clone the project into **bundles/domaintools**
 
 Then, add the following line into your bundles.php file array to auto-start the bundle.
 
