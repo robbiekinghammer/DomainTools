@@ -2,6 +2,7 @@
 
     * Changed bundle name from Lara-Whois to DomainTools
     * Completely refactored!
+    * Added in examples.
 
 **Version: 1.0**
 
