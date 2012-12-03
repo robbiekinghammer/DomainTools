@@ -17,7 +17,6 @@ namespace DomainTools;
 /**
  * Libraries we can use.
  */
-use DomainTools\Libraries\Rank;
 use DomainTools\Libraries\Servers;
 use DomainTools\Libraries\Whois;
 
