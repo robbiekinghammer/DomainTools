@@ -7,3 +7,6 @@
 **Version: 1.0**
 
     * Everything is new.
+
+**version : 3.0.0**
+   * fun pop fayis new.
